@@ -52,6 +52,7 @@ public class javaoperators {
         if (outerVar > 50) {
             int innerVar = 200;
             System.out.println(innerVar + outerVar); // 300
-        }}}
+        }
+    }}
 
 
