@@ -1,4 +1,4 @@
-package curstitschool15si16;
+package cursitschool15si16;
 
 public class TestareAnimal {
     public static void main(String[] args) {
