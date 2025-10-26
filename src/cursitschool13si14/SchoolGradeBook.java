@@ -6,9 +6,8 @@ public class SchoolGradeBook {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            Gradebook gradebook = new Gradebook();
+            GradeBook gradebook = new GradeBook();
             int choice;
-
             do {
                 System.out.println(" SCHOOL GRADEBOOK SYSTEM ");
                 System.out.println("1. Add Student");
@@ -18,7 +17,6 @@ public class SchoolGradeBook {
                 System.out.print("Enter your choice: ");
                 choice = sc.nextInt();
                 sc.nextLine(); // consume newline
-
                 switch (choice) {
                     case 1:
                         System.out.print("Enter student name: ");
@@ -27,7 +25,6 @@ public class SchoolGradeBook {
                         String id = sc.nextLine();
                         gradebook.addStudent(name, id);
                         break;
-
                     case 2:
                         System.out.print("Enter student ID: ");
                         String sid = sc.nextLine();
@@ -35,15 +32,12 @@ public class SchoolGradeBook {
                         double grade = sc.nextDouble();
                         gradebook.assignGrade(sid, grade);
                         break;
-
                     case 3:
                         gradebook.displayAllStudents();
                         break;
-
                     case 4:
                         System.out.println("Exiting... Goodbye!");
                         break;
-
                     default:
                         System.out.println("Invalid choice. Please try again.");
                 }
@@ -52,4 +46,3 @@ public class SchoolGradeBook {
             sc.close();
         }
     }
-
