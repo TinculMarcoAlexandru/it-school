@@ -1,14 +1,14 @@
 package cursitschool19;
 
-import java.awt.print.Book;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Author {
-    private String name;
-    private String nationality;
-    private String dateOfBirth;
-    private List<Book> books;
+    private final String name;
+    private final String nationality;
+    private final String dateOfBirth;
+    private final List<Book> books;
     public Author(String name, String nationality, String dateOfBirth) {
         this.name = name;
         this.nationality = nationality;

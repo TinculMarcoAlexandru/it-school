@@ -1,10 +1,10 @@
 package cursitschool19;
 
-public class Book extends java.awt.print.Book {
-    private String title;
-    private Author author;
-    private String publisher;
-    private String ISBN;
+public class Book  {
+    private final String title;
+    private final Author author;
+    private final String publisher;
+    private final String ISBN;
     private int numCopies;
     public Book(String title, Author author, String publisher, String ISBN, int numCopies) {
         this.title = title;

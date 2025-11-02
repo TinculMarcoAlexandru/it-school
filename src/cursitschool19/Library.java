@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    private List<Book> books;
-    private List<Member> members;
+    private final List<Book> books;
+    private final List<Member> members;
     public Library() {
         books = new ArrayList<>();
         members = new ArrayList<>();
