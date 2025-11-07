@@ -12,7 +12,7 @@ public class TemaOperatori {
         System.out.println(b - a); // 10
         System.out.println(a * b); // 200
         System.out.println(b / a); // 2
-        System.out.println(b % a); // 0
+        System.out.println(b / a); // 0
 
 
 
